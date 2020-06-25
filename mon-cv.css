@@ -20,32 +20,33 @@
 
     }
 
-.liste {
-    padding: 0;
-    margin: 0;
-    text-align: center;
-    
+.liste 
+    {
+        padding: 0;
+        margin: 0;
+        text-align: center;
+    }
+.liste li
+    {
+        display: inline;
+        list-style: none;
+        position: relative;
+        top: -100px;
 }
-.liste li{
-    display: inline;
-    list-style: none;
-    position: relative;
-    top: -100px;
 
-}
-
-.liste a{
-    display: inline-block;
-    margin: 0 30px;
-}
+.liste a
+    {
+        display: inline-block;
+        margin: 0 30px;
+    }
 
 
 .comp  
     {
-    text-align: right;
-    position: relative;
-    right: 100px;
-    top: -70px;
+        text-align: right;
+        position: relative;
+        right: 100px;
+        top: -70px;
     }
 
 .profil
@@ -55,5 +56,47 @@
 
 .RS
     {
+        text-align: right;        
+    }
+
+.RS2
+    {
         text-align: right;
+    }
+.photo2
+    {
+        display: flex;
+        flex-direction: row;
+        align-items: left;
+        border: black 1px solid;
+        display: flex;
+        flex-direction: column;
+    }
+        
+.titre2
+    {
+        display: flex;
+        flex-direction: row;
+        align-items: center;    
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: -200px;
+    }
+
+.Navigation
+    {
+        text-align: center;
+        position: relative;
+        top: -100px;
+    }
+
+.Box
+    {
+        margin: 0 10%;
+    }
+
+.Box2    
+    {
+        margin: 0 10%;
     }
