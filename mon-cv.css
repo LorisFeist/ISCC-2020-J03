@@ -1,3 +1,10 @@
+.typo
+    {
+        font-family: 'Times New Roman', Times, serif;
+
+    }
+    
+
 .photo
     {
         display: flex;
@@ -91,12 +98,34 @@
         top: -100px;
     }
 
-.Box
+.Box-header
     {
         margin: 0 10%;
+        background-color: cyan;
     }
 
 .Box2    
     {
         margin: 0 10%;
+    }
+
+.Box-central    
+    {
+        margin: 0 5%;
+    }
+
+.Box-rs
+    {
+        border: black 1px solid;
+        background-color: goldenrod;
+    }
+.Box-info
+    {
+        border: black 1px solid;
+        background-color: darkcyan;
+    }
+
+.color-background
+    {
+        background-color: honeydew;
     }
