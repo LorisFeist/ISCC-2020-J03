@@ -1,0 +1,131 @@
+.typo
+    {
+        font-family: 'Times New Roman', Times, serif;
+
+    }
+    
+
+.photo
+    {
+        display: flex;
+        flex-direction: row;
+    align-items: left;
+        border: black 1px solid;
+        display: flex;
+        flex-direction: column;
+    }
+        
+.titre
+    {
+        display: flex;
+        flex-direction: row;
+    align-items: center;    
+        display: flex;
+        flex-direction: column;
+        position: relative;
+            top: -200px;
+
+    }
+
+.liste 
+    {
+        padding: 0;
+        margin: 0;
+        text-align: center;
+    }
+.liste li
+    {
+        display: inline;
+        list-style: none;
+        position: relative;
+        top: -100px;
+}
+
+.liste a
+    {
+        display: inline-block;
+        margin: 0 30px;
+    }
+
+
+.comp  
+    {
+        text-align: right;
+        position: relative;
+        right: 100px;
+        top: -70px;
+    }
+
+.profil
+    {
+        align-items: center;
+    }
+
+.RS
+    {
+        text-align: right;        
+    }
+
+.RS2
+    {
+        text-align: right;
+    }
+.photo2
+    {
+        display: flex;
+        flex-direction: row;
+        align-items: left;
+        border: black 1px solid;
+        display: flex;
+        flex-direction: column;
+    }
+        
+.titre2
+    {
+        display: flex;
+        flex-direction: row;
+        align-items: center;    
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: -200px;
+    }
+
+.Navigation
+    {
+        text-align: center;
+        position: relative;
+        top: -100px;
+    }
+
+.Box-header
+    {
+        margin: 0 10%;
+        background-color: cyan;
+    }
+
+.Box2    
+    {
+        margin: 0 10%;
+    }
+
+.Box-central    
+    {
+        margin: 0 5%;
+    }
+
+.Box-rs
+    {
+        border: black 1px solid;
+        background-color: goldenrod;
+    }
+.Box-info
+    {
+        border: black 1px solid;
+        background-color: darkcyan;
+    }
+
+.color-background
+    {
+        background-color: honeydew;
+    }
